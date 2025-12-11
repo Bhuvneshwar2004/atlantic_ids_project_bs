@@ -80,15 +80,20 @@ streamlit run app.py
 🧪 Testing the IDS
 ✔️ You can test the system with:
 1.Real-time captured packets
+
 2.Uploaded CSV log files
+
 3.PCAP files
+
 4.Manually entered packet attributes
 
 A sample CSV for testing is provided in the repository.
 
 ⚠️ Limitations
 1.Encrypted traffic (HTTPS) cannot be inspected beyond headers.
+
 2.The model is trained on CICIDS-2017, so new zero-day attacks may require re-training.
+
 3.Real-time sniffing requires Admin / Root privileges.
 
 👥 Contributors — Team Atlantic
@@ -97,3 +102,4 @@ A sample CSV for testing is provided in the repository.
 | **Bhuvneshwar Sahu** | AI Model Development & Backend Engineering |
 | **Priyal Jain**      | UI/UX Design & Documentation               |
 | **Abhinesh**         | Data Preprocessing & System Testing        |
+
